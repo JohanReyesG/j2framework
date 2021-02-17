@@ -1,0 +1,26 @@
+{
+    "name": "jtwo/j2framework",
+    "description": "Miniframework php para app web simples",
+    "type": "library",
+    "license": "MIT",
+    "autoload":{
+        "psr-4":{
+            "Controllers\\":"controllers",
+            "Models\\":"models",
+            "Resources\\":"resources"
+        }
+    },
+    "authors": [
+        {
+            "name": "Johan Reyes",
+            "email": "reyesjohan665@gmail.com"
+        },
+        {
+            "name": "Johann Ramìrez",
+            "email": "johann.devfull@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database":"8.27.0"
+    }
+}
